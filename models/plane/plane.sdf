@@ -400,7 +400,7 @@
       <accelerometerBiasCorrelationTime>300.0</accelerometerBiasCorrelationTime>
       <accelerometerTurnOnBiasSigma>0.196</accelerometerTurnOnBiasSigma>
     </plugin>
-    <plugin name='wind_plugin' filename='libgazebo_wind_plugin.so'>
+    <!-- <plugin name='wind_plugin' filename='libgazebo_wind_plugin.so'>
       <frameId>base_link</frameId>
       <linkName>base_link</linkName>
       <robotNamespace/>
@@ -411,7 +411,7 @@
       <windGustDuration>0</windGustDuration>
       <windGustStart>0</windGustStart>
       <windGustForceMean>0</windGustForceMean>
-    </plugin>
+    </plugin> -->
     <plugin name="gps_plugin" filename="libgazebo_gps_plugin.so">
         <robotNamespace></robotNamespace>
         <gpsNoise>true</gpsNoise>
